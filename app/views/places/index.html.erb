@@ -1,0 +1,10 @@
+
+<h1>Places</h1>
+
+<% @places.each do |place| %>
+	<p>
+		Name:        <%= place.name %>        Address:        <%= place.address%> <%= link_to 'show', place %>
+	</p>
+
+
+<% end %>
